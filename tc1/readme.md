@@ -197,3 +197,57 @@ As colunas artificiais são removidas. O Simplex é executado sobre a função o
 **Valor ótimo da função objetivo:** z\* = **R\$ 93,00**
 
 Observação: o programa exibe −93 na linha obj porque internamente minimiza −z para problemas de minimização na representação adotada. O valor correto é z\* = 93.
+
+## **Como Executar o Código**
+
+### **Pré-requisitos**
+
+Instalar o Python 3:
+
+* [Python Oficial](https://www.python.org/downloads/?utm_source=chatgpt.com)
+
+### **Estrutura Esperada**
+
+O diretório do projeto deve conter arquivos como:
+
+```text
+simplex.py
+main.py
+README.md
+```
+
+---
+
+### **Execução**
+
+No terminal, acessar a pasta do projeto:
+
+```bash
+cd caminho/do/projeto
+```
+
+Executar o programa:
+
+```bash
+python main.py
+```
+
+ou, em sistemas Linux/WSL:
+
+```bash
+python3 main.py
+```
+
+---
+
+### **Saída Esperada**
+
+O programa:
+
+* monta automaticamente os tableaus;
+* executa a Fase I do Método das Duas Fases;
+* verifica viabilidade;
+* executa a Fase II;
+* imprime cada iteração do Simplex;
+* apresenta a solução ótima encontrada;
+* exibe o valor final da função objetivo.
