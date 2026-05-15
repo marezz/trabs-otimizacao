@@ -1,4 +1,4 @@
-**Trabalho Computacional I - Método Simplex**
+**Relatório Trabalho Computacional I - Método Simplex**
 
 Implementação e Resolução de Problemas de Programação Linear
 
